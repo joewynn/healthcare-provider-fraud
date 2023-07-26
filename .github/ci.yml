@@ -31,7 +31,7 @@ jobs:
       - name: Deploy
         run: |
           git pull
-          mkdocs gh-deploy
+          mkdocs gh-deploy --force
 
       #- uses: actions/cache@v2
       #  with: 
