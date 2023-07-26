@@ -1,4 +1,6 @@
 site_name: Health Care Provider Fraud
+repo_name: joewynn/healthcare-provider-fraud
+
 theme:
   name: material
   features:
