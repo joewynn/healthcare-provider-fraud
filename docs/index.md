@@ -1,72 +1,23 @@
-# Welcome to MkDocs
+# Healthcare Provider Fraud Detection
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Project Objectives
 
-## Code Annotation Examples
+Provider Fraud is one of the biggest problems facing Medicare. According to the government, the total Medicare spending increased exponentially due to frauds in Medicare claims. Healthcare fraud is an organized crime which involves peers of providers, physicians, beneficiaries acting together to make fraud claims.
 
-### Codeblocks
+Rigorous analysis of Medicare data has yielded many physicians who indulge in fraud. They adopt ways in which an ambiguous diagnosis code is used to adopt costliest procedures and drugs. Insurance companies are the most vulnerable institutions impacted due to these bad practices. Due to this reason, insurance companies increased their insurance premiums and as result healthcare is becoming costly matter day by day.
 
-Some `code` for `py` here
+Healthcare fraud and abuse take many forms. Some of the most common types of frauds by providers are:
+- 
+    a. Billing for services that were not provided.
+    b. Duplicate submission of a claim for the same service.
+    c. Misrepresenting the service provided.
+    d. Charging for a more complex or expensive service than was actually provided.
+    e. Billing for a covered service when the service actually provided was not covered.
 
-```py
-def add(a, b): 
-    """
-    Addition function 
+## Problem Statement
 
-    Inputs
-    a (float): first number
-    b (float): second number
+The goal of this project is to "predict the potentially fraudulent providers" based on the claims filed by them.
 
-    Return: 
-    A multiplication of a and b (a*b)
-    """
-    return float(a*b)
-```
+Along with this, we will also discover important variables helpful in detecting the behavior of potentially fraud providers.
 
-#### with a title 
-
-```py title="buble_sort.py"
-
-def bubble_sort(items): 
-    for i in range(len(items)): 
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j+1]: 
-                items[j], items[j+1] = items[j+1], items[j]
-
-```
-
-#### With line numbers 
-
-```py linenums="1"
-
-def bubble_sort(items): 
-    for i in range(len(items)): 
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j+1]: 
-                items[j], items[j+1] = items[j+1], items[j]
-
-```
-
-
-#### With line highlighted code lines 
-
-```py hl_lines="2 4" linenums="1"
-
-def bubble_sort(items): 
-    for i in range(len(items)): 
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j+1]: 
-                items[j], items[j+1] = items[j+1], items[j]
-
-```
--- ### Plain code block
-
-## Icons and Emojis
-
-:smile:
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
+Further, we will study fraudulent patterns in the provider's claims to understand the future behavior of providers.
